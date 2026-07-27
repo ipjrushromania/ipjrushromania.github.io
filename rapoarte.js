@@ -110,3 +110,4 @@ lista.innerHTML+=`
 });
 
 }
+import { uploadImage } from "./storage.js";
