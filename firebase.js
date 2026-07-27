@@ -110,3 +110,6 @@ document.getElementById("roleUser").innerText=data.rol;
 });
 
 }
+import { getFirestore } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
+
+export const db=getFirestore(app);
