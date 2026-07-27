@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ro">
 
 <head>
 
-<title>Dashboard</title>
+<meta charset="UTF-8">
 
 <link rel="stylesheet" href="css/dashboard.css">
+
+<title>Dashboard</title>
 
 </head>
 
 <body onload="checkUser()">
 
-<h1>Bine ai venit!</h1>
+<div class="sidebar">
+
+<h2>IPJ RUSH</h2>
+
+<a href="#">🏠 Dashboard</a>
+
+<a href="#">📋 Rapoarte</a>
+
+<a href="#">👤 Profil</a>
+
+<a href="#">⚙️ Setări</a>
 
 <button onclick="logout()">
 
 Logout
 
 </button>
+
+</div>
+
+<div class="content">
+
+<h1>Bun venit!</h1>
+
+<div class="card">
+
+<h2>Email</h2>
+
+<p id="emailUser"></p>
+
+</div>
+
+<div class="card">
+
+<h2>Rol</h2>
+
+<p id="roleUser"></p>
+
+</div>
+
+</div>
 
 <script type="module" src="js/auth.js"></script>
 
